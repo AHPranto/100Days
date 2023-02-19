@@ -1,0 +1,15 @@
+word_list = [
+'rose', 
+'sunflower', 
+'marigold', 
+'waterlily', 
+'hibiscus',
+'lion', 
+'tiger', 
+'goat', 
+'horse', 
+'duck',
+'eagle', 
+'pigeon', 
+'peacock', 
+]
