@@ -1,9 +1,12 @@
-import turtle as t
+from turtle import Screen, Turtle
 
-tim = t.Turtle()
+screen = Screen()
+screen.setup(width=600, height=600)
+screen.bgcolor("black")
+screen.title("My Snake Game")
 
-for _ in range(15):
-    tim.forward(10)
-    tim.penup()
-    tim.forward(10)
-    tim.pendown()
+srating_positions = [(0, 0), (-20, 0), (-40, 0)]
+for position in srating_positions:
+    new_segment = Turtle(shape="square")
+    new_segment.color("white")
+    new_segment.goto(position)
